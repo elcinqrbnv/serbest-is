@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+}
+.page {
+    width: 100%;
+    background-color:#e7ecf1;
+}
+.header {
+    width: 100%;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    background-color:#fff;
+    align-items: center;
+}
+.header .logo a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.header .nav-bar .nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav li {
+    margin: 0 16px;
+}
+.nav li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #808080;
+}
+.buy-now {
+    margin-right: 30px;
+} 
+.nav li:last-child a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #2fb275;
+    padding: 12px 28px;
+    border-radius: 6px;
+    margin-left: 50px;
+}
+.section {
+    width: 100%;
+    height: 80vh;
+    background-image: url(arabic-kebab-sandwich-wooden-flat-lay_23-2148651075.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+.section .text {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+}
+.section h1 {
+    font-size: 50px;
+    padding-top: 150px;
+}
+.section .phragraph {
+    width: 60%;
+    text-align: center;
+    margin-left: 300px;
+    margin-bottom: 50px;
+}
+.section p {
+    color: #b6b6b6;
+    font-size: 20px;
+}
+.section .search input {
+    width: 550px;
+    padding: .6rem 0 .6rem 1rem;
+    border-radius: 6px;
+}
+.section .search .btn {
+    padding: .6rem 24px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #2fb275;
+    margin-left: 8px;
+    border-radius: 6px;
+}
+.heading {
+    margin-bottom: 48px;
+    text-align: center;
+    padding-top: 100px;
+    width: 100%;
+}
+.heading p {
+    color: blue;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.heading span {
+    font-weight: bold;
+    color: #717171;
+}
+.col {
+    margin: 16px;
+}
+.col .image {
+    width: 100%;
+}
+.card {
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.image img {
+    width: 100%;
+    height: 150px;
+}
